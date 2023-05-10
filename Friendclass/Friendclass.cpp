@@ -34,11 +34,12 @@ void orang::setNama(string pNama) {
 }
  
 int main() {
-	orang joko;
-	joko.setNama("joko Kumat");
-	siswa joko_siswa;
-	joko_siswa.setId(1);
-	joko_siswa.displayAll(joko);
-
+	orang o;
+	o.setNama("Joko Kumat");
+	siswa s;
+	s.setId(1);
+	s.displayAll(o);
+	cout << endl;
+	system("pause");
 	return 0;
 }
